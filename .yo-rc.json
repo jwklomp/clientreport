@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.jwklomp.clientreport",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "monolith",
+    "baseName": "clientreport",
+    "packageName": "org.jwklomp.clientreport",
+    "packageFolder": "org/jwklomp/clientreport",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGIzZWU2YTRlOTNjMGQxYzMyZWFlM2EzMWVkNTk5MDNjMTI1MmUyZDdlNWM1ZmM5Y2M3NzQ3MTRmMDMwMDA1MWY5NmJiNWFkYThmM2EyZjRmNGI0ODU2M2NiMDk2MzE3MmVhZDUxZmE5MzNiYTE2OTJhYTJkOWQ4ODJlOTkzMDY=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "nl"
+    ],
+    "blueprints": []
+  }
+}
