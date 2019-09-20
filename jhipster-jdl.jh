@@ -1,0 +1,42 @@
+entity Client {
+	name String required,
+	email String required    
+}
+
+entity Location {
+	streetAddress String  required,
+	postalCode String  required,
+	city String  required,
+	stateProvince String
+}
+
+entity Report {
+	name String required,
+    dateCreated Instant required,
+    dateLastModified Instant required,
+	content String required,
+    status ReportStatus required
+}
+
+entity StatusInformation {
+    dateCreated Instant required,
+    message String required
+}
+
+enum ReportStatus {
+    DRAFT, COMPLETED, SENT
+}
+
+relationship OneToOne {
+	Client{location} to Location
+}
+
+relationship OneToMany {
+	Client{report} to Report
+}
+
+relationship OneToMany {
+	Report{statusInformation} to StatusInformation
+}
+
+service all with serviceImpl

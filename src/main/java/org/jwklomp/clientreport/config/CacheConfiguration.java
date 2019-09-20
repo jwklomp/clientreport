@@ -42,6 +42,12 @@ public class CacheConfiguration {
             createCache(cm, org.jwklomp.clientreport.domain.User.class.getName());
             createCache(cm, org.jwklomp.clientreport.domain.Authority.class.getName());
             createCache(cm, org.jwklomp.clientreport.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.jwklomp.clientreport.domain.Client.class.getName());
+            createCache(cm, org.jwklomp.clientreport.domain.Client.class.getName() + ".reports");
+            createCache(cm, org.jwklomp.clientreport.domain.Location.class.getName());
+            createCache(cm, org.jwklomp.clientreport.domain.Report.class.getName());
+            createCache(cm, org.jwklomp.clientreport.domain.Report.class.getName() + ".statusInformations");
+            createCache(cm, org.jwklomp.clientreport.domain.StatusInformation.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,28 @@
+{
+  "clientreportApp": {
+    "report": {
+      "home": {
+        "title": "Reports",
+        "createLabel": "Maak een nieuwe Report",
+        "createOrEditLabel": "Maak of wijzig een Report",
+        "notFound": "No Reports found"
+      },
+      "created": "A new Report is created with identifier {{ param }}",
+      "updated": "A Report is updated with identifier {{ param }}",
+      "deleted": "A Report is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Report {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Report"
+      },
+      "name": "Name",
+      "dateCreated": "Date Created",
+      "dateLastModified": "Date Last Modified",
+      "content": "Content",
+      "status": "Status",
+      "client": "Client",
+      "statusInformation": "Status Information"
+    }
+  }
+}

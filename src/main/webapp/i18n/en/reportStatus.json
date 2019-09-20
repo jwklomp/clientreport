@@ -1,0 +1,10 @@
+{
+  "clientreportApp": {
+    "ReportStatus": {
+      "null": "",
+      "DRAFT": "DRAFT",
+      "COMPLETED": "COMPLETED",
+      "SENT": "SENT"
+    }
+  }
+}

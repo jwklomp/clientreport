@@ -1,0 +1,24 @@
+{
+  "clientreportApp": {
+    "statusInformation": {
+      "home": {
+        "title": "Status Informations",
+        "createLabel": "Create a new Status Information",
+        "createOrEditLabel": "Create or edit a Status Information",
+        "notFound": "No Status Informations found"
+      },
+      "created": "A new Status Information is created with identifier {{ param }}",
+      "updated": "A Status Information is updated with identifier {{ param }}",
+      "deleted": "A Status Information is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Status Information {{ id }}?"
+      },
+      "detail": {
+        "title": "Status Information"
+      },
+      "dateCreated": "Date Created",
+      "message": "Message",
+      "report": "Report"
+    }
+  }
+}
